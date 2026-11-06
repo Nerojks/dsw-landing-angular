@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'FuenteDSW';
+  src: url('/assets/fonts/NexaLight.woff2') format('woff2'),
+       url('/assets/fonts/NexaLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FuenteDSW';
+  src: url('/assets/fonts/NexaRegular.woff2') format('woff2'),
+       url('/assets/fonts/NexaRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FuenteDSW';
+  src: url('/assets/fonts/NexaBold.woff2') format('woff2'),
+       url('/assets/fonts/NexaBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root,
+[data-bs-theme='dark'] {
+  --bs-body-font-family: 'FuenteDSW', sans-serif;
+  --bs-body-bg: #0e100e;
+  --bs-body-color: #d8d8d0;
+  --twd-rojo: #b11212;
+}
+
+body {
+  font-family: 'FuenteDSW', sans-serif;
+}
+
+.card {
+  --bs-card-bg: #181b18;
+  --bs-card-border-color: #3b1111;
+}
