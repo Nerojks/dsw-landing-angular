@@ -1,0 +1,15 @@
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid var(--twd-rojo);
+}
+
+.card-title {
+  color: var(--twd-rojo);
+}
+
+li i {
+  color: var(--twd-rojo);
+  margin-right: 0.5rem;
+}
