@@ -1,0 +1,9 @@
+.navbar-brand {
+  color: var(--twd-rojo);
+  letter-spacing: 0.05em;
+}
+
+.nav-link.active {
+  color: #fff;
+  border-bottom: 2px solid var(--twd-rojo);
+}
